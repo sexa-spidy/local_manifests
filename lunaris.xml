@@ -3,7 +3,7 @@
 
   <!-- Remotes -->
   <remote name="achu"    fetch="https://github.com/achu137/" />
-  <remote name="adi8900" fetch="https://github.com/adi8900/" />
+  <remote name="frost-testzone" fetch="https://github.com/frost-testzone/" />
   <remote name="LineageOS" fetch="https://github.com/LineageOS/" />
 
   <!-- Device Tree -->
@@ -19,6 +19,6 @@
   <project path="hardware/xiaomi"      name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
 
   <!-- Dolby -->
-  <project path="vendor/oneplus/dolby" name="hardware_dolby"         remote="adi8900"  revision="lunaris" />
+  <project path="vendor/oneplus/dolby" name="vendor_oneplus_dolby" remote="frost-testzone" revision="main" />
 
 </manifest>
