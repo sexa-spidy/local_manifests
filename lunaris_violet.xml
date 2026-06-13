@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- HTTPS remote to avoid SSH auth issues -->
+  <remote
+    name="github-https"
+    fetch="https://github.com" />
+
+  <!-- Device Tree -->
+  <project
+    name="sexa-spidy/device_xiaomi_violet"
+    path="device/xiaomi/violet"
+    remote="github-https"
+    revision="16" />
+
+  <!-- Kernel (stable) -->
+  <project
+    name="selfmusing/kernel_xiaomi_violet"
+    path="kernel/xiaomi/violet"
+    remote="github-https"
+    revision="14" />
+
+  <!-- Vendor -->
+  <project
+    name="selfmusing/platform_vendor_xiaomi_violet"
+    path="vendor/xiaomi/violet"
+    remote="github-https"
+    revision="16" />
+
+  <!-- Dolby Hardware -->
+  <project
+    name="selfmusing/android_hardware_dolby"
+    path="hardware/dolby"
+    remote="github-https"
+    revision="master" />
+
+</manifest>
