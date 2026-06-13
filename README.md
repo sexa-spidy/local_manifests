@@ -7,6 +7,6 @@ achu is gay
 Local Manifests for Lunaris ROM (Android 16)
 
 ```
-git clone https://github.com/sexa-spidy/local_manifests.git -b lunaris .repo/local_manifests
+git clone https://github.com/sexa-spidy/local_manifests.git -b lunaris_self_musher .repo/local_manifests
 
 ```
