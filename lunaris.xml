@@ -2,7 +2,6 @@
 <manifest>
   <!-- Remotes -->
   <remote name="sexa-spidy" fetch="https://github.com/sexa-spidy/" />
-  <remote name="frost-testzone" fetch="https://github.com/frost-testzone/" />
   <remote name="LineageOS" fetch="https://github.com/LineageOS/" />
 
   <!-- Device Tree -->
