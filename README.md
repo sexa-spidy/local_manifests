@@ -1,7 +1,3 @@
-achu is gay
-
-
-
 # Local_Manifests_Violet
 
 Local Manifests for Lunaris ROM (Android 16)
