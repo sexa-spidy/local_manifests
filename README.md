@@ -1,6 +1,4 @@
-Helped by Achu bro(A pro)
-
- 
+Achu is still gay
 
 # Local_Manifests_Violet
 
