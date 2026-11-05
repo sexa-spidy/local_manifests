@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Remotes -->
-  <remote name="sexa-spidy" fetch="https://github.com/sexa-spidy/" />
-  <remote name="LineageOS" fetch="https://github.com/LineageOS/" />
+  <!-- DT -->
+  <project name="sexa-spidy/device_xiaomi_violet"
+           path="device/xiaomi/violet"
+           remote="github"
+           revision="17" />
 
-  <!-- Device Tree -->
-  <project path="device/xiaomi/violet" name="device_xiaomi_violet" remote="sexa-spidy" revision="lunaris" />
+  <!-- Kernel -->
+  <project name="sexa-spidy/Nemesis_kernel_violet"
+           path="kernel/xiaomi/violet"
+           remote="github"
+           revision="cnb" />
 
-  <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/violet" name="kernel_xiaomi_violet" remote="sexa-spidy" revision="16.0" />
+  <!-- Hardware Xiaomi -->
+  <project name="sexa-spidy/android_hardware_xiaomi"
+           path="hardware/xiaomi"
+           remote="github"
+           revision="seventeen" />
 
-  <!-- Vendor Tree -->
-  <project path="vendor/xiaomi/violet" name="vendor_xiaomi_violet" remote="sexa-spidy" revision="16.1" />
-
-  <!-- Hardware -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-23.2" />
+  <!-- Vendor blobs -->
+  <project name="sexa-spidy/proprietary_vendor_xiaomi_violet"
+           path="vendor/xiaomi/violet"
+           remote="github"
+           revision="seventeen" />
 
   <!-- Dolby -->
-  <project path="vendor/oneplus/dolby" name="vendor_oneplus_dolby" remote="sexa-spidy" revision="main" />
+  <project name="sexa-spidy/vendor_oneplus_dolby"
+           path="vendor/oneplus/dolby"
+           remote="github"
+           revision="main" />
 
+  <!-- MIUI Camera -->
+  <project name="xiaomi-sm6150/proprietary_vendor_miuicamera-violet"
+           path="vendor/miuicamera-violet"
+           remote="github"
+           revision="seventeen" />
 </manifest>
