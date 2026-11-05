@@ -7,10 +7,10 @@
            revision="17" />
 
   <!-- Kernel -->
-  <project name="sexa-spidy/Nemesis_kernel_violet"
+  <project name="sexa-spidy/android_kernel_xiaomi_sm6150"
            path="kernel/xiaomi/violet"
            remote="github"
-           revision="cnb" />
+           revision="seventeen" />
 
   <!-- Hardware Xiaomi -->
   <project name="sexa-spidy/android_hardware_xiaomi"
