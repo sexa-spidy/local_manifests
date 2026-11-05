@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- DT -->
+  <!-- DT (Evolution X branch) -->
   <project name="sexa-spidy/device_xiaomi_violet"
            path="device/xiaomi/violet"
            remote="github"
-           revision="17" />
+           revision="evolution-17" />
 
   <!-- Kernel -->
   <project name="sexa-spidy/android_kernel_xiaomi_sm6150"
